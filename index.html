@@ -5,14 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>:3</title>
 </head>
-<body style="background-image: url(hmy2.jpg); background-repeat: no-repeat; background-size: cover;">
+<body class="bg">
     <div class="content">
-        <p style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 50px; margin-top: 200px;">I Love You</p>
+        <p style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 70px; margin-top: 200px;">I Love You</p>
+    </div>
+    <div class="gifim">
+        <img src="https://media.tenor.com/JJquxnSAmJwAAAAM/seal-hibo-heart.gif" alt="">
+
     </div>
 </body>
 <style>
     .content{
         background-color: rgba(209, 42, 42, 0.384);
+    }
+    .gifim{
+        display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center; /* Căn giữa dọc */
+    height: 100vh; /* Độ cao toàn màn hình */
+
+    }
+    .bg{
+        background-image: url("hmy2.jpg");
+        background-size: cover; /* Phủ kín màn hình mà không bị méo */
+    /* background-position: center; Căn giữa */
+    background-repeat: no-repeat; /* Không lặp lại */
+    height: 100vh; /* Đảm bảo ảnh phủ toàn màn hình */
+    /* margin-top: 1000px; */
     }
 </style>
 </html>
